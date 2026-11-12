@@ -1,0 +1,15 @@
+# 자동 매칭이 실패한 것만 사람이 적는다. 자동 결과보다 우선한다. 값이 TODO면 아직 안 채운 것.
+# 실패 목록: data/cache/unmatched_ids.txt (python -m static.loader 실행 결과)
+
+# OP.GG ID: CDragon apiName (같은 세트의 챔피언·아이템)
+#   또는 {api_name: <CDragon apiName>, name_ko: <표시 이름>}
+#   CDragon에 대응 항목이 없으면 {name_ko: <표시 이름>}만
+ids:
+  # 적응가 시너지로 AD·AP 형태가 따로 집계됨. CDragon에는 AP 형태만 있다
+  DA_Gromp18_AD: {api_name: DA_Gromp18_AP, name_ko: 심술두꺼비 (AD)}
+  DA_NidaleeCougar18_AD: {api_name: DA_Nidalee18_AP, name_ko: 니달리 (쿠거·AD)}
+  # 날렵이 시너지 활성화 시 나오는 소환물. 챔피언에 합체시켜 쓴다
+  TFT18_SprykinSummonMelee: {name_ko: 커다란 털뭉치 친구}
+
+# 상징 apiName: 세트 시너지 apiName (이름 규칙 "<시너지> 상징"이 안 맞는 것만)
+emblem_traits: {}

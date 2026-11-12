@@ -1,10 +1,18 @@
-# 로컬 문서 (커밋하지 않음)
-CLAUDE.md
-docs/
-prompts/
+# 로컬 자연어 문서·프롬프트 (공개하지 않음)
+*.md
+*.rst
+*.adoc
+# 라이선스·법적 고지는 문서 확장자여도 포함
+!LICENSE*
+!COPYING*
+!NOTICE*
+/docs/
+/prompts/
 
 # 시크릿
 .env
+.env.*
+!.env.example
 secrets/
 *service-account*.json
 *service_account*.json
@@ -13,19 +21,38 @@ secrets/
 *_sa.json
 *-key.json
 *_key.json
+*.pem
+*.key
+*.p12
+*.pfx
 
 # 데이터
 data/
 
 # Python / 도구
 .venv/
+venv/
 __pycache__/
 *.py[cod]
 .pytest_cache/
 .ruff_cache/
+.mypy_cache/
+.pytype/
+.tox/
+.nox/
+.hypothesis/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+.ipynb_checkpoints/
 *.egg-info/
 build/
 dist/
+
+# 실행 산출물
+*.log
+logs/
 
 # OS / 에디터
 .DS_Store

@@ -1,0 +1,742 @@
+{
+ "items": [
+  {
+   "apiName": "DA_Component_BFSword",
+   "associatedTraits": [],
+   "composition": [],
+   "desc": null,
+   "effects": {},
+   "from": null,
+   "icon": "assets/maps/tft/icons/items/hexcore/tft_item_bfsword.tex",
+   "id": null,
+   "incompatibleTraits": [],
+   "isAugment": false,
+   "name": "B.F. 대검",
+   "tags": [
+    "component"
+   ],
+   "unique": false
+  },
+  {
+   "apiName": "DA_Component_Spatula",
+   "associatedTraits": [],
+   "composition": [],
+   "desc": null,
+   "effects": {},
+   "from": null,
+   "icon": "assets/maps/tft/icons/items/hexcore/tft_item_spatula.tex",
+   "id": null,
+   "incompatibleTraits": [],
+   "isAugment": false,
+   "name": "뒤집개",
+   "tags": [
+    "component"
+   ],
+   "unique": false
+  },
+  {
+   "apiName": "DA_Component_SparringGloves",
+   "associatedTraits": [],
+   "composition": [],
+   "desc": null,
+   "effects": {},
+   "from": null,
+   "icon": "assets/maps/tft/icons/items/hexcore/tft_item_sparringgloves.tex",
+   "id": null,
+   "incompatibleTraits": [],
+   "isAugment": false,
+   "name": "연습용 장갑",
+   "tags": [
+    "component"
+   ],
+   "unique": false
+  },
+  {
+   "apiName": "DA_InfinityEdge",
+   "associatedTraits": [],
+   "composition": [
+    "DA_Component_BFSword",
+    "DA_Component_SparringGloves"
+   ],
+   "desc": null,
+   "effects": {},
+   "from": null,
+   "icon": "assets/maps/tft/icons/items/hexcore/tft_item_infinityedge.tex",
+   "id": null,
+   "incompatibleTraits": [],
+   "isAugment": false,
+   "name": "무한의 대검",
+   "tags": [
+    "{7ea41d13}",
+    "CritChance"
+   ],
+   "unique": false
+  },
+  {
+   "apiName": "DA_18_EmblemFae",
+   "associatedTraits": [],
+   "composition": [
+    "DA_Component_Spatula",
+    "DA_Component_BFSword"
+   ],
+   "desc": null,
+   "effects": {},
+   "from": null,
+   "icon": "assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_fae.tex",
+   "id": null,
+   "incompatibleTraits": [],
+   "isAugment": false,
+   "name": "요정 상징",
+   "tags": [
+    "{ebcd1bac}"
+   ],
+   "unique": false
+  },
+  {
+   "apiName": "DA_18_EmblemJuggernaut",
+   "associatedTraits": [],
+   "composition": [],
+   "desc": null,
+   "effects": {},
+   "from": null,
+   "icon": "assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_juggernaut.tex",
+   "id": null,
+   "incompatibleTraits": [],
+   "isAugment": false,
+   "name": "전쟁기계 상징",
+   "tags": [],
+   "unique": false
+  },
+  {
+   "apiName": "DA_AdaptiveHelm_Radiant",
+   "associatedTraits": [],
+   "composition": [],
+   "desc": null,
+   "effects": {},
+   "from": null,
+   "icon": "assets/maps/tft/icons/items/hexcore/tft5_item_adaptivehelmradiant.tex",
+   "id": null,
+   "incompatibleTraits": [],
+   "isAugment": false,
+   "name": "찬란한 적응형 투구",
+   "tags": [
+    "{6ef5c598}"
+   ],
+   "unique": false
+  },
+  {
+   "apiName": "DA_Artifact_AegisOfDawn",
+   "associatedTraits": [],
+   "composition": [],
+   "desc": null,
+   "effects": {},
+   "from": null,
+   "icon": "assets/maps/tft/icons/items/hexcore/tft_item_artifact_aegisofdawn.tex",
+   "id": null,
+   "incompatibleTraits": [],
+   "isAugment": false,
+   "name": "새벽의 방패",
+   "tags": [
+    "{44ace175}",
+    "{ec243f6b}"
+   ],
+   "unique": false
+  },
+  {
+   "apiName": "DA_HealthPotion18",
+   "associatedTraits": [],
+   "composition": [],
+   "desc": null,
+   "effects": {},
+   "from": null,
+   "icon": "assets/maps/tft/icons/tft18/tft18_healthpotion.tex",
+   "id": null,
+   "incompatibleTraits": [],
+   "isAugment": false,
+   "name": "체력 물약",
+   "tags": [],
+   "unique": false
+  },
+  {
+   "apiName": "TFT_Item_InfinityEdge",
+   "associatedTraits": [],
+   "composition": [
+    "TFT_Item_BFSword",
+    "TFT_Item_SparringGloves"
+   ],
+   "desc": "<TFTKeyword>정밀</TFTKeyword>을 얻습니다.<br><br>{{TFT_Keyword_Precision}}",
+   "effects": {
+    "AD": 0.3499999940395355,
+    "CritChance": 35.0,
+    "CritDamageToGive": null
+   },
+   "from": null,
+   "icon": "assets/maps/tft/icons/items/hexcore/tft_item_infinityedge.tex",
+   "id": null,
+   "incompatibleTraits": [],
+   "isAugment": false,
+   "name": "무한의 대검",
+   "tags": [
+    "{7ea41d13}",
+    "CritChance"
+   ],
+   "unique": false
+  },
+  {
+   "apiName": "DA_18_BigGrabBag",
+   "associatedTraits": [],
+   "composition": [],
+   "desc": "무작위 조합 아이템 3개, @Gold@골드, 재조합기 1개를 획득합니다.",
+   "effects": {
+    "Gold": 2.0
+   },
+   "from": null,
+   "icon": "assets/maps/tft/icons/augments/hexcore/grab-bag-ii.tex",
+   "id": null,
+   "incompatibleTraits": [],
+   "isAugment": true,
+   "name": "큰 꾸러미",
+   "tags": [
+    "{ce1fd21c}"
+   ],
+   "unique": false
+  },
+  {
+   "apiName": "DA_18_BlossomTraitAugment",
+   "associatedTraits": [
+    "DA_18_Blossom"
+   ],
+   "composition": [],
+   "desc": "수호령을 구매하면 해당 수호령의 비용에 따라 무작위 개화 챔피언을 획득합니다. 유나라, 요릭, 카르마를 획득합니다.",
+   "effects": {},
+   "from": null,
+   "icon": "assets/maps/tft/icons/augments/hexcore/missing-t2.tex",
+   "id": null,
+   "incompatibleTraits": [],
+   "isAugment": true,
+   "name": "꽃의 부름",
+   "tags": [
+    "{ce1fd21c}"
+   ],
+   "unique": false
+  }
+ ],
+ "setData": [
+  {
+   "mutator": "TFTSet17",
+   "name": "Set17",
+   "number": 17,
+   "champions": [
+    {
+     "ability": {
+      "desc": "대상을 강타해 <magicDamage>@ModifiedDamage@(%i:scaleAP%)</magicDamage>의 마법 피해를 입힙니다.",
+      "icon": "assets/characters/tft_bluegolem/hud/tft_bluegolem_spell.tex",
+      "name": "골렘의 강타",
+      "variables": [
+       {
+        "name": "Damage",
+        "value": [
+         100.0,
+         300.0,
+         480.0,
+         750.0,
+         1125.0,
+         100.0,
+         100.0
+        ]
+       }
+      ]
+     },
+     "apiName": "TFT_BlueGolem",
+     "characterName": "TFT_BlueGolem",
+     "cost": 1,
+     "icon": "assets/ux/tft/championsplashes/tft_bluegolem.tex",
+     "name": "골렘",
+     "role": "APTank",
+     "squareIcon": "assets/ux/tft/championsplashes/tft_bluegolem_mobile.tex",
+     "stats": {
+      "armor": 40.0,
+      "attackSpeed": 0.550000011920929,
+      "critChance": 0.25,
+      "critMultiplier": 1.399999976158142,
+      "damage": 55.0,
+      "hp": 600.0,
+      "initialMana": 30.0,
+      "magicResist": 40.0,
+      "mana": 100,
+      "range": 1.0
+     },
+     "tileIcon": "assets/characters/tft_bluegolem/hud/tft_bluegolem_spell.tex",
+     "traits": []
+    }
+   ],
+   "traits": [],
+   "items": [],
+   "augments": []
+  },
+  {
+   "mutator": "TFTSet18",
+   "name": "Set10",
+   "number": 18,
+   "champions": [
+    {
+     "ability": {
+      "desc": "기본 지속 효과: 아군 돌거북이 처치될 때마다 체력을 모두 회복합니다.",
+      "icon": "assets/characters/tft_krug/hud/ancientkrug_square.tex",
+      "name": "바위 재구축",
+      "variables": []
+     },
+     "apiName": "TFT_Krug",
+     "characterName": "TFT_Krug",
+     "cost": 1,
+     "icon": "assets/ux/tft/championsplashes/tft_krug.tex",
+     "name": "돌거북",
+     "role": "ADTank",
+     "squareIcon": "assets/ux/tft/championsplashes/tft_krug_mobile.tex",
+     "stats": {
+      "armor": 50.0,
+      "attackSpeed": 0.800000011920929,
+      "critChance": 0.25,
+      "critMultiplier": 1.399999976158142,
+      "damage": 110.0,
+      "hp": 1200.0,
+      "initialMana": 0,
+      "magicResist": 25.0,
+      "mana": 0.0,
+      "range": 1.0
+     },
+     "tileIcon": "assets/characters/tft_krug/hud/ancientkrug_square.tex",
+     "traits": []
+    },
+    {
+     "ability": {
+      "desc": "<Bright>적응가 </Bright>%i:scaleAP%<Bright>:</Bright> 현재 대상에게 독성 방울을 뿜어냅니다. 독성 방울은 처음 적에게 적중하면 폭발해 @MagicDamageCalc1@%i:scaleAP%의 마법 피해를 입힙니다. 폭발 반경 1칸 내 적은 @PoisonDurationAP@초 동안 @MagicDamageCalc2@%i:scaleAP%의 마법 피해를 입습니다.\r\\n\r\\n<dim>적응가 </dim>%i:scaleAD%<dim>: 대상을 크게 둔화시킵니다.</dim>\r\\n\r\\n퍼플 버프: @TraitTimer@초마다 심술두꺼비가 주문력을 @TraitTimedAP@ 얻습니다.",
+      "icon": "None",
+      "name": "꿀꺽 방울",
+      "variables": []
+     },
+     "apiName": "DA_Gromp18_AP",
+     "characterName": "DA_Gromp18_AP",
+     "cost": 2,
+     "icon": "{f3b734c3102f71ed}",
+     "name": "심술두꺼비",
+     "role": null,
+     "squareIcon": "assets/characters/tft18_gromp/skins/base/images/t_18_gromp_teamplannersplash.tex",
+     "stats": {
+      "armor": 30.0,
+      "attackSpeed": 0.699999988079071,
+      "critChance": 0.25,
+      "critMultiplier": 1.399999976158142,
+      "damage": 30.0,
+      "hp": 550.0,
+      "initialMana": 0,
+      "magicResist": 30.0,
+      "mana": 45.0,
+      "range": 4.0
+     },
+     "tileIcon": "assets/characters/tft18_gromp/tft18_gromp_square.tex",
+     "traits": [
+      "협곡야수",
+      "적응가"
+     ]
+    },
+    {
+     "ability": {
+      "desc": "<Bright>사용 시:</Bright> @ShieldDuration@초 동안 @ShieldCalc1@%i:scaleAP%의 보호막을 얻고 반경 원뿔 범위 내 적에게 @MagicDamageCalc1@%i:scaleAP%의 마법 피해를 입힙니다.\r\\n\r\\n<Bright>퀘스트:</Bright> 플레이어 대상 전투마다 오른이 막은 피해량을 대장간의 힘으로 저장합니다. 3성일 경우 저장 수치가 @DamageTaken3StarScalar@ 증가합니다. 대장간의 힘을 충분히 모을 때마다 유물 모루 1개를 획득합니다. <Rules>(대장간의 힘: </Rules>@Stack@<Rules>/</Rules>@GenericCalc1@<Rules>)</Rules>",
+      "icon": "None",
+      "name": "불꽃 풀무질",
+      "variables": []
+     },
+     "apiName": "DA_18_Ornn",
+     "characterName": "DA_18_Ornn",
+     "cost": 1,
+     "icon": "assets/characters/tft18_ornn/skins/base/images/tft18_ornn_splash_centered_2.tex",
+     "name": "오른",
+     "role": null,
+     "squareIcon": "assets/characters/tft18_ornn/skins/base/images/tft18_ornn_splash_tile_2.tex",
+     "stats": {
+      "armor": 40.0,
+      "attackSpeed": 0.6000000238418579,
+      "critChance": 0.25,
+      "critMultiplier": 1.399999976158142,
+      "damage": 40.0,
+      "hp": 700.0,
+      "initialMana": 40.0,
+      "magicResist": 40.0,
+      "mana": 100,
+      "range": 1.0
+     },
+     "tileIcon": "assets/characters/tft18_ornn/tft18_ornn_square.tex",
+     "traits": [
+      "나무정령",
+      "엄호대"
+     ]
+    },
+    {
+     "ability": {
+      "desc": "거대한 십자날을 던져 현재 대상에게 @PhysicalDamageCalc1@%i:scaleAD%%i:scaleAP%의 물리 피해를 입힙니다. 십자날은 주변 적에게 @NumBounces@번 튕기며 튕길 때마다 @PhysicalDamageCalc2@%i:scaleAD%%i:scaleAP%의 물리 피해를 입힙니다. 적을 처치하면 @BonusKillBounces@번 더 튕깁니다.",
+      "icon": "None",
+      "name": "부메랑 검",
+      "variables": []
+     },
+     "apiName": "DA_18_Sivir",
+     "characterName": "DA_18_Sivir",
+     "cost": 4,
+     "icon": "assets/characters/tft18_sivir/skins/base/images/tft18_sivir_splash_centered_61.tex",
+     "name": "시비르",
+     "role": null,
+     "squareIcon": "assets/characters/tft18_sivir/skins/base/images/tft18_sivir_splash_tile_61.tex",
+     "stats": {
+      "armor": 40.0,
+      "attackSpeed": 0.800000011920929,
+      "critChance": 0.25,
+      "critMultiplier": 1.399999976158142,
+      "damage": 50.0,
+      "hp": 850.0,
+      "initialMana": 0,
+      "magicResist": 40.0,
+      "mana": 40.0,
+      "range": 4.0
+     },
+     "tileIcon": "assets/characters/tft18_sivir/tft18_sivir_square.tex",
+     "traits": [
+      "원시",
+      "사냥꾼"
+     ]
+    }
+   ],
+   "traits": [
+    {
+     "apiName": "DA_18_Elderwood",
+     "desc": "배치할 수 있는 나무정령 식물을 획득합니다.<br><row>(@MinUnits@) 돌껍질 나무, 생명꽃 획득</row><br><row>(@MinUnits@) 두 번째 돌껍질 나무 획득 및 돌껍질 나무 체력 @StonebarkTreeBonusHealth@ 증가</row><br><row>(@MinUnits@) 또한 깊은숲 수호자 획득</row><br><row>(@MinUnits@) 식물이 2성이 됨</row><br><row>(@MinUnits@) 식물이 3성이 되고 숲이 살아 움직임</row>",
+     "effects": [
+      {
+       "maxUnits": 4,
+       "minUnits": 3,
+       "style": 1,
+       "variables": {
+        "{0f90e7a4}": 0.25,
+        "{4013f48e}": 0.10000000149011612
+       }
+      },
+      {
+       "maxUnits": 6,
+       "minUnits": 5,
+       "style": 3,
+       "variables": {
+        "{0f90e7a4}": 0.25,
+        "{4013f48e}": 0.10000000149011612,
+        "{b027c2f9}": 200.0
+       }
+      },
+      {
+       "maxUnits": 8,
+       "minUnits": 7,
+       "style": 5,
+       "variables": {
+        "{0f90e7a4}": 0.25,
+        "{4013f48e}": 0.10000000149011612
+       }
+      },
+      {
+       "maxUnits": 10,
+       "minUnits": 9,
+       "style": 5,
+       "variables": {
+        "{0f90e7a4}": 0.25,
+        "{4013f48e}": 0.10000000149011612
+       }
+      },
+      {
+       "maxUnits": 25000,
+       "minUnits": 11,
+       "style": 6,
+       "variables": {
+        "{0f90e7a4}": 0.25,
+        "{4013f48e}": 0.10000000149011612
+       }
+      }
+     ],
+     "icon": "assets/ux/traiticons/trait_icon_18_elderwood.tex",
+     "name": "나무정령"
+    },
+    {
+     "apiName": "DA_18_Adaptor",
+     "desc": "고유: 적응가 스킬은 공격력과 주문력 중 어느 쪽이 높은지에 따라 바뀝니다.<br><br>적응가는 공격력과 주문력 중 어느 쪽이 높은지에 따라 해당 능력치를 얻습니다.<br><row>(@MinUnits@) @ADAPGain*100@%  또는</row><br><row>(@MinUnits@) @ADAPGain*100@%  또는</row><br><row>(@MinUnits@) @ADAPGain*100@%  또는</row>",
+     "effects": [
+      {
+       "maxUnits": 2,
+       "minUnits": 2,
+       "style": 1,
+       "variables": {
+        "{0412779a}": 0.25
+       }
+      },
+      {
+       "maxUnits": 3,
+       "minUnits": 3,
+       "style": 3,
+       "variables": {
+        "{0412779a}": 0.3499999940395355
+       }
+      },
+      {
+       "maxUnits": 25000,
+       "minUnits": 4,
+       "style": 5,
+       "variables": {
+        "{0412779a}": 0.5
+       }
+      }
+     ],
+     "icon": "assets/ux/traiticons/trait_icon_18_adaptor.tex",
+     "name": "적응가"
+    },
+    {
+     "apiName": "DA_18_Eclipse",
+     "desc": "전투 시작 @DelaySeconds@초 후 일월식이 체력이 가장 낮은 적을 처치하며, 이후 @EclipseBeamPeriod@초마다 반복합니다.",
+     "effects": [
+      {
+       "maxUnits": 25000,
+       "minUnits": null,
+       "style": 1,
+       "variables": {
+        "DelaySeconds": 8.0,
+        "{53db05e8}": 3.5
+       }
+      }
+     ],
+     "icon": "assets/ux/traiticons/trait_icon_18_eclipse.tex",
+     "name": "일월식"
+    },
+    {
+     "apiName": "DA_18_Hunter",
+     "desc": "사냥꾼이 공격력을 얻습니다. 사냥꾼이 @HunterDuration@초 동안 대상을 변경하지 않았다면 피해 증폭을 @DamageAmp*100@% 얻습니다.<br><row>(@MinUnits@) @HunterAD*100@% %i:scaleAD%</row><br><row>(@MinUnits@) @HunterAD*100@% %i:scaleAD%</row><br><row>(@MinUnits@) @HunterAD*100@% %i:scaleAD%</row><br><row>(@MinUnits@) @HunterAD*100@% %i:scaleAD%</row>",
+     "effects": [
+      {
+       "maxUnits": 2,
+       "minUnits": 2,
+       "style": 1,
+       "variables": {
+        "DamageAmp": 0.10000000149011612,
+        "{641254b6}": 0.20000000298023224,
+        "{83011ee7}": 3.0
+       }
+      },
+      {
+       "maxUnits": 3,
+       "minUnits": 3,
+       "style": 3,
+       "variables": {
+        "DamageAmp": 0.10000000149011612,
+        "{641254b6}": 0.30000001192092896,
+        "{83011ee7}": 3.0
+       }
+      },
+      {
+       "maxUnits": 4,
+       "minUnits": 4,
+       "style": 3,
+       "variables": {
+        "DamageAmp": 0.10000000149011612,
+        "{641254b6}": 0.44999998807907104,
+        "{83011ee7}": 3.0
+       }
+      },
+      {
+       "maxUnits": 25000,
+       "minUnits": 5,
+       "style": 5,
+       "variables": {
+        "DamageAmp": 0.10000000149011612,
+        "{641254b6}": 0.6000000238418579,
+        "{83011ee7}": 3.0
+       }
+      }
+     ],
+     "icon": "assets/ux/traiticons/trait_icon_18_hunter.tex",
+     "name": "사냥꾼"
+    },
+    {
+     "apiName": "DA_Primal18",
+     "desc": "네 가지 원시 축복 중 하나를 선택합니다.<br><row>(@MinUnits@)</row><br><row>(@MinUnits@)</row>",
+     "effects": [
+      {
+       "maxUnits": 3,
+       "minUnits": 2,
+       "style": 1,
+       "variables": {}
+      },
+      {
+       "maxUnits": 25000,
+       "minUnits": 4,
+       "style": 5,
+       "variables": {}
+      }
+     ],
+     "icon": "assets/ux/traiticons/trait_icon_18_primal.tex",
+     "name": "원시"
+    },
+    {
+     "apiName": "DA_Juggernaut18",
+     "desc": "아군이 내구력을 얻습니다. 전쟁기계는 능력치를 더 얻습니다.<br><row>(@MinUnits@) @TeamDurability*100@% %i:scaleDR% 또는 @JuggernautDurability*100@% %i:scaleDR%</row><br><row>(@MinUnits@) @TeamDurability*100@% %i:scaleDR% 또는 @JuggernautDurability*100@% %i:scaleDR%</row><br><row>(@MinUnits@) @TeamDurability*100@% %i:scaleDR% 또는 @JuggernautDurability*100@% %i:scaleDR%</row>",
+     "effects": [
+      {
+       "maxUnits": 3,
+       "minUnits": 2,
+       "style": 1,
+       "variables": {
+        "{6eab9c5e}": 0.19999998807907104,
+        "{f8c73243}": 0.04000002145767212
+       }
+      },
+      {
+       "maxUnits": 5,
+       "minUnits": 4,
+       "style": 3,
+       "variables": {
+        "{6eab9c5e}": 0.30000001192092896,
+        "{f8c73243}": 0.06000000238418579
+       }
+      },
+      {
+       "maxUnits": 25000,
+       "minUnits": 6,
+       "style": 5,
+       "variables": {
+        "{6eab9c5e}": 0.42000001668930054,
+        "{f8c73243}": 0.07999998331069946
+       }
+      }
+     ],
+     "icon": "assets/ux/traiticons/trait_icon_18_juggernaut.tex",
+     "name": "전쟁기계"
+    },
+    {
+     "apiName": "DA_Riftbeast18",
+     "desc": "<row>(@MinUnits@) 우두머리 표식을 이용해 협곡야수에게 고유 효과 부여</row><br><row>(@MinUnits@) 전투 @OverrunCombats@회마다 다음 상점이 협곡야수로 뒤덮임</row><br><row>(@MinUnits@) 전투 시작 시 및 5초마다, 협곡야수가 성장해 <br>@CapstoneAD*100@% %i:scaleAD% @CapstoneAP*100@% %i:scaleAP% @CapstoneAspd*100@% %i:scaleAS%<br>+@CapstoneArmor@ %i:scaleArmor% +@CapstoneMR@ %i:scaleMR%  +@CapstoneHealth@ %i:scaleHealth% +@CapstoneManaRegen@ %i:scaleManaRegen%</row><br><row> 획득(@MinUnits@) 최대 팀 규모 +@TeamSize@</row>",
+     "effects": [
+      {
+       "maxUnits": 4,
+       "minUnits": 3,
+       "style": 1,
+       "variables": {}
+      },
+      {
+       "maxUnits": 6,
+       "minUnits": 5,
+       "style": 3,
+       "variables": {
+        "{e8d16db1}": 3.0
+       }
+      },
+      {
+       "maxUnits": 9,
+       "minUnits": 7,
+       "style": 5,
+       "variables": {
+        "{0776b071}": 0.05000000074505806,
+        "{08cfb22e}": 50.0,
+        "{0d6c2c87}": 5.0,
+        "{1b76cfed}": 0.05000000074505806,
+        "{3230276c}": 1.0,
+        "{4e1998f4}": 0.059999942779541016,
+        "{a8c6eeaf}": 5.0
+       }
+      },
+      {
+       "maxUnits": 25000,
+       "minUnits": 10,
+       "style": 5,
+       "variables": {
+        "TeamSize": 2.0
+       }
+      }
+     ],
+     "icon": "assets/ux/traiticons/trait_icon_18_riftbeast.tex",
+     "name": "협곡야수"
+    },
+    {
+     "apiName": "DA_18_Fae",
+     "desc": "아군의 피해, 체력 회복, 보호막이 나비정령을 끌어들입니다.<br><br>요정 챔피언이 나비정령 하나당 공격력 및 주문력을 얻습니다. 또한 체력이 @HealThreshold*100@% 아래로 떨어지면 나비정령 하나당 체력을 회복합니다.<br><row>(@MinUnits@) @ADAP@%  및 @Heal@% 체력 회복</row><br><row>(@MinUnits@) @ADAP@%  및 @Heal@% 체력 회복. 나비정령 7마리 이후 골드를 제공하는 황금 나비정령 등장</row>",
+     "effects": [
+      {
+       "maxUnits": 3,
+       "minUnits": 2,
+       "style": 1,
+       "variables": {
+        "ADAP": 4.5,
+        "Heal": 3.0,
+        "HealThreshold": 0.5
+       }
+      },
+      {
+       "maxUnits": 25000,
+       "minUnits": 4,
+       "style": 5,
+       "variables": {
+        "ADAP": 7.0,
+        "Heal": 5.0,
+        "HealThreshold": 0.5
+       }
+      }
+     ],
+     "icon": "assets/ux/traiticons/trait_icon_18_fae.tex",
+     "name": "요정"
+    },
+    {
+     "apiName": "DA_18_Defender",
+     "desc": "아군이 방어력 및 마법 저항력을 @NonDefenderDefenseGain@ 얻습니다. 엄호대는 능력치를 더 얻습니다.<br><row>(@MinUnits@) @DefenderDefenseGain@</row><br><row>(@MinUnits@) @DefenderDefenseGain@</row><br><row>(@MinUnits@) @DefenderDefenseGain@</row>",
+     "effects": [
+      {
+       "maxUnits": 3,
+       "minUnits": 2,
+       "style": 1,
+       "variables": {
+        "{0eb6405e}": 12.0,
+        "{8c16b281}": 25.0
+       }
+      },
+      {
+       "maxUnits": 5,
+       "minUnits": 4,
+       "style": 3,
+       "variables": {
+        "{0eb6405e}": 12.0,
+        "{8c16b281}": 60.0
+       }
+      },
+      {
+       "maxUnits": 25000,
+       "minUnits": 6,
+       "style": 5,
+       "variables": {
+        "{0eb6405e}": 12.0,
+        "{8c16b281}": 115.0
+       }
+      }
+     ],
+     "icon": "assets/ux/traiticons/trait_icon_18_defender.tex",
+     "name": "엄호대"
+    }
+   ],
+   "items": [
+    "DA_Component_BFSword",
+    "DA_Component_Spatula",
+    "DA_Component_SparringGloves",
+    "DA_InfinityEdge",
+    "DA_18_EmblemFae",
+    "DA_18_EmblemJuggernaut",
+    "DA_AdaptiveHelm_Radiant",
+    "DA_Artifact_AegisOfDawn",
+    "DA_HealthPotion18",
+    "TFT_Item_InfinityEdge"
+   ],
+   "augments": [
+    "DA_18_BigGrabBag",
+    "DA_18_BlossomTraitAugment"
+   ]
+  }
+ ],
+ "sets": {}
+}

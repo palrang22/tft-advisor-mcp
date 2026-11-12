@@ -1,0 +1,11 @@
+# 줄임말: 정식 한국어 이름 (resolve_names가 static 데이터에서 ID로 바꾼다)
+# 섹션: units / items / traits
+items:
+  쓸큰지: 쓸데없이 큰 지팡이
+  최속: 최후의 속삭임
+  붉덩: 붉은 덩굴정령
+  무대: 무한의 대검
+  죽검: 죽음의 검
+  푸파: 푸른 파수꾼
+units: {}
+traits: {}
