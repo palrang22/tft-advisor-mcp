@@ -1,0 +1,34 @@
+[project]
+name = "tft-advisor-mcp"
+version = "0.1.0"
+description = "개인용 TFT 어드바이저: OP.GG 스냅샷 + CommunityDragon 기반 MCP/REST 툴"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "google-cloud-bigquery>=3.47.0",
+    "httpx>=0.28.1",
+    "mcp>=2.3.0",
+    "pandas>=3.1.1",
+    "pyarrow>=26.0.1",
+    "pydantic>=2.14.3",
+    "pyyaml>=6.0.3",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+    "ruff>=0.17.4",
+]
+
+[tool.uv]
+package = false
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

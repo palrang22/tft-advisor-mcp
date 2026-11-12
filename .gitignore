@@ -1,0 +1,33 @@
+# 로컬 문서 (커밋하지 않음)
+CLAUDE.md
+docs/
+prompts/
+
+# 시크릿
+.env
+secrets/
+*service-account*.json
+*service_account*.json
+*credentials*.json
+*-sa.json
+*_sa.json
+*-key.json
+*_key.json
+
+# 데이터
+data/
+
+# Python / 도구
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# OS / 에디터
+.DS_Store
+.idea/
+.vscode/
