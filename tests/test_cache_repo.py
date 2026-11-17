@@ -18,52 +18,37 @@ def cache(tmp_path: Path) -> Path:
         "static_units": [
             {
                 "set_number": 18,
-                
                 "api_name": "Unit",
-                
                 "name_ko": "기물",
-                
                 "cost": 1,
                 "traits": ["Trait"],
-                
                 "role": None,
             }
         ],
         "static_traits": [
             {
                 "set_number": 18,
-                
                 "api_name": "Trait",
-                
                 "name_ko": "특성",
                 "breakpoints": [2, 4],
-                
                 "desc_ko": None,
             }
         ],
         "static_items": [
             {
                 "set_number": 18,
-                
                 "api_name": "Current",
-                
                 "name_ko": "대검",
                 "components": [],
-                
                 "kind": "component",
-                
                 "emblem_trait": None,
             },
             {
                 "set_number": 18,
-                
                 "api_name": "Legacy",
-                
                 "name_ko": "대검",
                 "components": [],
-                
                 "kind": "other",
-                
                 "emblem_trait": None,
             },
         ],
@@ -71,22 +56,16 @@ def cache(tmp_path: Path) -> Path:
         "static_id_map": [
             {
                 "opgg_id": "Form",
-                
                 "api_name": "Unit",
-                
                 "type": "unit",
                 "name_ko": "기물 (AD)",
-                
                 "match_method": "override",
             },
             {
                 "opgg_id": "Summon",
-                
                 "api_name": None,
-                
                 "type": "unit",
                 "name_ko": "소환물",
-                
                 "match_method": "override",
             },
         ],

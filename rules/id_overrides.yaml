@@ -5,9 +5,11 @@
 #   또는 {api_name: <CDragon apiName>, name_ko: <표시 이름>}
 #   CDragon에 대응 항목이 없으면 {name_ko: <표시 이름>}만
 ids:
-  # 적응가 시너지로 AD·AP 형태가 따로 집계됨. CDragon에는 AP 형태만 있다
+  # 적응가 시너지로 AD·AP 형태가 따로 집계됨. CDragon에는 한 형태만 있다
   DA_Gromp18_AD: {api_name: DA_Gromp18_AP, name_ko: 심술두꺼비 (AD)}
   DA_NidaleeCougar18_AD: {api_name: DA_Nidalee18_AP, name_ko: 니달리 (쿠거·AD)}
+  # 2026-11-13 enum에 새로 들어옴. CDragon에는 DA_18_MasterYi_AD(마스터 이)만 있다
+  DA_18_MasterYi_AP: TODO
   # 날렵이 시너지 활성화 시 나오는 소환물. 챔피언에 합체시켜 쓴다
   TFT18_SprykinSummonMelee: {name_ko: 커다란 털뭉치 친구}
 

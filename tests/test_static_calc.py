@@ -123,7 +123,7 @@ TABLES: dict[str, list[dict[str, Any]]] = {
         alias("브루저", "브루저 상징", "item"),
     ],
     "static_id_map": [
-        *(mapping(u["api_name"], u["api_name"], "unit", u["name_ko"], "auto")  for u in _UNITS),
+        *(mapping(u["api_name"], u["api_name"], "unit", u["name_ko"], "auto") for u in _UNITS),
         mapping("DA_Gromp_AD", "TFT18_Gromp_AP", "unit", "심술두꺼비 (AD)", "override"),
         mapping("TFT18_Summon", None, "unit", "털뭉치 친구", "override"),
         mapping("OPGG_Sword", SWORD, "item", "대검", "override"),

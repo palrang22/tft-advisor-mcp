@@ -73,11 +73,11 @@ def load_tables(
     client = bigquery.Client(project=settings.gcp_project, location=settings.bq_location)
     for table, rows in tables.items():
         table_id = f"{settings.gcp_project}.{settings.bq_dataset}.{table}"
-        _load_one(client, table_id, SCHEMAS[table], [dict(r) for r in rows], policy)
+        load_rows(client, table_id, SCHEMAS[table], [dict(r) for r in rows], policy)
         logger.info("loaded %d rows into %s", len(rows), table_id)
 
 
-def _load_one(
+def load_rows(
     client: bigquery.Client,
     table_id: str,
     schema: list[bigquery.SchemaField],

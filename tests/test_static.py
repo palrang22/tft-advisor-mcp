@@ -158,6 +158,20 @@ def test_unknown_set_and_stale_combinations_fail() -> None:
         opgg_ref.read_item_kinds(COMBOS, 19)
 
 
+def test_item_kinds_same_for_trimmed_combinations_response() -> None:
+    # 2026-11-13 응답은 최상위 키가 set·version·data뿐이고 현재 세트 137행만 온다 (11-12는 519행).
+    # OP.GG enum 아이템의 분류는 두 형태에서 같아야 한다.
+    trimmed = json.loads(
+        (FIX / "opgg/tft_list_item_combinations__ko_KR.20261113.json").read_text(encoding="utf-8")
+    )
+    full_kinds = opgg_ref.read_item_kinds(COMBOS, 18)
+    trimmed_kinds = opgg_ref.read_item_kinds(trimmed, 18)
+    item_ids = opgg_ref.read_enums(LIST_TOOLS)["item"]
+
+    assert [trimmed_kinds.get(i) for i in item_ids] == [full_kinds.get(i) for i in item_ids]
+    assert trimmed_kinds["DA_18_EmblemJuggernaut"] == "emblem"
+
+
 def test_aliases(tmp_path: Path) -> None:
     path = write(
         tmp_path / "a.yaml", "items:\n  무대: 무한의 대검\n  오타: 무한의 대겸\nunits: {}\n"
